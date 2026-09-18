@@ -17,6 +17,7 @@ public class AddRemoveElementsTest extends TestBase {
         page.addElement();
 
         Assert.assertEquals(page.getDeleteButtonsCount(), 2);
-
+        int count = page.getDeleteButtonsCount();
+        System.out.println("Количество: " + count);
     }
 }

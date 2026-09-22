@@ -13,8 +13,7 @@ public class DropdownPage {
     private final WebDriver driver;
     private final WebDriverWait wait;
 
-    private final String url =
-            "http://the-internet.herokuapp.com/dropdown";
+    private final String url = "http://the-internet.herokuapp.com/dropdown";
 
     private final By dropdown = By.id("dropdown");
 

@@ -12,8 +12,7 @@ public class InputsPage {
     private final WebDriver driver;
     private final WebDriverWait wait;
 
-    private final String url =
-            "http://the-internet.herokuapp.com/inputs";
+    private final String url = "http://the-internet.herokuapp.com/inputs";
 
     private final By input = By.tagName("input");
 
